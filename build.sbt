@@ -3,11 +3,11 @@ import AssemblyKeys._
 lazy val commonSettings = Project.defaultSettings ++ Seq(
   version           := "0.6.1-SNAPSHOT",
   organization      := "de.sciss",
-  scalaVersion      := "2.10.3",  // not used
+  scalaVersion      := "2.11.1",  // not used
   homepage          := Some(url("https://github.com/Sciss/abc4j")),
   licenses          := Seq("LGPL v3+" -> url("http://www.gnu.org/licenses/lgpl-3.0.txt")),
   crossPaths        := false,   // this is just a Java project right now!
-  retrieveManaged   := true,
+  // retrieveManaged   := true,
   autoScalaLibrary  := false    // currently Java only project
 )
 
