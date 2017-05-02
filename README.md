@@ -7,7 +7,9 @@ This is a fork of the [abc4j](https://github.com/Sciss/abc4j) library adapter fo
 
 ## usage
 
-TBD: Gradle dependency info
+To use the library add this to your `build.gradle`:
+
+    compile 'com.github.grennis:abc4android:v0.6.0_Android'
 
 ## overview
 
