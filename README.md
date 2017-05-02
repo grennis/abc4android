@@ -7,7 +7,16 @@ This is a fork of the [abc4j](https://github.com/Sciss/abc4j) library adapter fo
 
 ## usage
 
-To use the library add this to your `build.gradle`:
+To use the library add this to your root `build.gradle`:
+
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+And this to your project `build.gradle`:
 
     compile 'com.github.grennis:abc4android:v0.6.0_Android'
 
