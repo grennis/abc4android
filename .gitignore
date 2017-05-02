@@ -6,3 +6,13 @@ project/boot/
 .idea_modules/
 .history
 config.dat
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+*.apk
